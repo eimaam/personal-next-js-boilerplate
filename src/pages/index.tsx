@@ -1,4 +1,4 @@
-import Button from '@/components/Button';
+import Button from '@/components/ui/button';
 import Head from 'next/head';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <main className="h-screen w-screen">
         <h1>Hello World</h1>
         <div>
-          <Button onClick>Success</Button>
+          <Button>Success</Button>
         </div>
       </main>
     </>
