@@ -1,6 +1,6 @@
 // pages/api/status.ts
 
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest, NextApiResponse } from 'next';
 
 type ResponseData = {
   message: string;
